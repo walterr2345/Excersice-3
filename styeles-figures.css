@@ -1,0 +1,110 @@
+.figure-container {
+
+    height: auto;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.leaves {
+    /* width: 0;
+    border: 60px solid;
+    border-color: #228B22 transparent transparent #228B22;
+    margin: auto;
+    transform: rotate(45deg); */
+
+    width: 0;
+    border: 70px solid;
+    transform: rotate(45deg);
+    margin: auto;
+    border-color: #228B22 transparent transparent #228B22
+
+}
+
+.leaves:nth-child(1) {
+    margin-top: 20px;
+}
+
+.leaves:nth-child(2) {
+    border-width: 100px;
+    margin-top: -70px;
+}
+
+.leaves:nth-child(3) {
+    border-width: 120px;
+    margin-bottom: -20px;
+    margin-top: -100px;
+}
+
+.log {
+    background-color: #CD853F;
+    height: 90px;
+    margin: -100px auto 0;
+    width: 60px;
+}
+
+.rocketNoose {
+    width: 0;
+    height: 0;
+    border-radius: 105%;
+    border-left: 79px solid transparent;
+    border-right: 79px solid transparent;
+    border-bottom: 200px solid rgb(28, 28, 177);
+}
+
+.rocketBody {
+    width: 125px;
+    height: 350px;
+    margin-top: -45px;
+    border: transparent;
+    z-index: 1;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.windowRocket {
+    background-color: #ffc34b;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.flapsRocket {
+    width: 0;
+    border: 80px solid;
+    margin-top: -80px;
+    z-index: 0;
+    transform: rotate(45deg);
+    border-color: rgb(28, 28, 177) transparent transparent rgb(28, 28, 177);
+}
+
+.fireRocket {
+    display: flex;
+    height: 20px;
+}
+
+.fire {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 110px 35px 0 35px;
+    border-color: #ffa033 transparent transparent transparent;
+    margin-top: -90px;
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid #228B22;
+  }
+  
+
